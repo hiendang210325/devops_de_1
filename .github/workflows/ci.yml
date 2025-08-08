@@ -2,7 +2,7 @@ name: CI/CD Pipeline
 
 on:
   pull_request:
-    branches: [hien]
+    branches: [pull_hien1]
 
 jobs:
   test:
