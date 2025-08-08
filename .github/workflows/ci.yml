@@ -1,8 +1,10 @@
 name: CI/CD Pipeline
 
 on:
+  push:
+    branches: [ main, master, hien, hien2 ]
   pull_request:
-    branches: [hien2]
+    branches: [ main, master, hien, hien2 ]
 
 jobs:
   test:
